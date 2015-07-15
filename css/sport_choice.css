@@ -1,0 +1,58 @@
+body {
+  font-style: helvetica;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+  height: 35px;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.step_completed {
+  background-color: green;
+}
+
+.step_doing {
+  background-color: blue;
+}
+
+td {
+  margin: 3px;
+}
+
+#sports {
+  width: 40%;
+  float: left;
+  border: 3px solid black;
+  padding: 30px;
+  background-color: #E6E6E6;
+  margin: 5px;
+  height: 60%;
+}
+
+#players {
+  width: 40%;
+  float: left;
+  border: 3px solid black;
+  padding: 30px;
+  background-color: #E6E6E6;
+  margin: 5px;
+  height: 60%;
+}
+
+#number_of_players {
+  height: 20px;
+}
+
+.sport-column {
+  float: left;
+  margin-right: 20%;
+}
