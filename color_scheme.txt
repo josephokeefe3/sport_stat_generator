@@ -1,0 +1,3 @@
+wrapper: #0E76FF
+
+base-background: #F7EEE4
