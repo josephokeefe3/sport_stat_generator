@@ -6,6 +6,7 @@
   <title> Soccer </title>
   <link rel="stylesheet" href="css/stat-enter-soccer.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
  </head>
  <body class="notBoot">
@@ -20,8 +21,8 @@
     </ul>
 
     <div class="statsheet" id="field-players">
-      <table style="width:100%">
-        <tr>
+      <table class="stat_table">
+        <tr class="stat-row">
           <td> Name </td>
           <td> Soccer Stat 1 </td> 
           <td> Soccer Stat 2  </td>
@@ -30,120 +31,25 @@
           <td> Soccer Stat 5  </td>
           <td> Soccer Stat 6  </td>
         </tr>
-        <tr>
+        <tr class="stat_row">
           <td> <input type="text" class="stat"> </td>
           <td> <input type="text" class="stat"> </td> 
           <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat">  </td>
-        </tr>
-        <tr>
-          <td> <input type="text" class="stat">  </td>
-          <td> <input type="text" class="stat"> </td> 
-          <td> <input type="text" class="stat"> </td>
           <td> <input type="text" class="stat">  </td>
           <td> <input type="text" class="stat">  </td>
           <td> <input type="text" class="stat">  </td>
           <td> <input type="text" class="stat">  </td>
         </tr>
       </table>
+      <tr>
+        <button class="add_player"> + </button>
+      </tr>
     </div>
 
     <div class="statsheet" id="goalies">
     </div>
   </div>
-  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/stat-enter-soccer.js"></script>  
  </body>
 </html>

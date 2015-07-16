@@ -22,7 +22,44 @@ body h1 {
   margin-bottom: 0;
 }
 
+#soccer_title_bar {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-bottom: solid white 3px;
+}
+
+.wrapper {
+  margin-left: 15px;
+}
+
+table {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 98%;
+  margin-top: 5px;
+}
 
 .stat {
-  margin-bottom: 3px;
+  margin-top: 3px;
+  padding-bottom: 1px;
+}
+
+.stat_row {
+  border-bottom: 1px;
+}
+
+.add_player {
+  margin-left: 1%;
+  margin-top: 4px;
+  background-color: #FAFAFA;
+  border: 2px solid #4B4B4B;
+  font-size: 16px;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+}
+
+.add_player:hover {
+  color: white;
+  background-color: #333333;
 }
