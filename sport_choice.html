@@ -7,66 +7,78 @@
  </head>
  <body>
   <div class="wrapper">
-    <div id="steps">
-      <table border="1">
-        <tr>
-          <td class="step_doing">Pick Your Sport</td>
-          <td>Pick Your Stats</td> 
-          <td>Enter the Stats</td>
-          <td>Stat-View</td>
-        </tr>
-      </table>
-    </div> 
-    <div id="sports">
 
-      <!-- Start of Check boxes to pick sport -->
+    <!-- Title Start -->
+    <div class="title_bar">
+      <h1>Stat View</h1>
+    </div> <!-- Title End -->
+
+    <!-- Steps Bar Start -->
+    <div id="steps">
+      <div class='step step_doing'>
+        <h2> Choose Sport </h2>
+      </div>
+      <div class='step'>
+        <h2> Choose Stats </h2>
+      </div>
+      <div class='step'>
+        <h2> Enter Stats </h2>
+      </div>
+      <div class='step'>
+        <h2> Stat View </h2>
+      </div>
+    </div> <!-- Steps Bar End -->
+
+    <!-- Start of Check boxes to pick sport -->
+    <div id="sports">
+      <h3> Pick Your Sport </h3>
       <div class="sport-column">
         <span id="sport-check">
-          <input type="checkbox"> Baseball </input>
+          <input type="radio" name="sportradio"> Baseball </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Basketball </input>
+          <input type="radio" name="sportradio"> Basketball </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Field Hockey </input>
+          <input type="radio" name="sportradio"> Field Hockey </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Football </input>
+          <input type="radio" name="sportradio"> Football </input>
         </span>
         <br>
       </div>
       <div class="sport-column">
         <span id="sport-check">
-          <input type="checkbox"> Hockey </input>
+          <input type="radio" name="sportradio"> Hockey </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Lacrosse </input>
+          <input type="radio" name="sportradio"> Lacrosse </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Soccer </input>
+          <input type="radio" name="sportradio"> Soccer </input>
         </span>
         <br>
         <span id="sport-check">
-          <input type="checkbox"> Ultimate Frisbee </input>
+          <input type="radio" name="sportradio"> Ultimate Frisbee </input>
         </span>
       </div>
+    </div>
       <!-- End of Check Boxes to Pick Sport -->
 
-    </div>
     <div id="players">
+
+      <h3> How many players are on your team?</h3>
 
       <input type="text" name="number_of_players" placeholder="Number of Players" id="number_of_players">
 
-
-
     </div>
 
 
-  </div>
+  </div>  <!-- end wrapper -->
  </body>
 </html>
