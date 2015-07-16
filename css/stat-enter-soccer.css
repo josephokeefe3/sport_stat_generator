@@ -1,0 +1,28 @@
+@font-face {
+  font-family: junction;
+  src: url(../fonts/Junction.otf);
+}
+
+body.notBoot {
+  background-color: #0E76FF;
+}
+
+.wrapper {
+  background-color: white;
+  width: 95%;
+  height: 83vh;
+  margin: auto;
+  border-radius: 15px;
+}
+
+body h1 {
+  color: white;
+  font-family: junction;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+
+.stat {
+  margin-bottom: 3px;
+}
