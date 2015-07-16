@@ -12,7 +12,7 @@
  <body class="notBoot">
 
   <div id="soccer_title_bar">
-    <h1>Stat Complier<h1>
+    <h1>Stat Compilier<h1>
   </div>
   <div class="wrapper">
     <ul class="nav nav-tabs">
@@ -21,6 +21,10 @@
     </ul>
 
     <div class="statsheet open" id="field-players">
+      <tr>
+        <button class="add_player" id="field-players-add"> + </button>
+        <button class="add_player" id="field-players-sub"> - </button>
+      </tr>
       <table class="stat_table" id="field-players-stat">
         <tr class="stat-row">
           <td> Player </td>
@@ -41,13 +45,13 @@
           <td> <input type="text" class="stat">  </td>
         </tr>
       </table>
-      <tr>
-        <button class="add_player" id="field-players-add"> + </button>
-        <button class="add_player" id="field-players-sub"> - </button>
-      </tr>
     </div>
 
     <div class="statsheet" id="goalies">
+      <tr>
+        <button class="add_player" id="goalies-add"> + </button>
+        <button class="add_player" id="goalies-sub"> - </button>
+      </tr>      
       <table class="stat_table" id="goalies-stat">
         <tr class="stat-row">
           <td> Player </td>
@@ -68,11 +72,9 @@
           <td> <input type="text" class="stat">  </td>
         </tr>
       </table>
-      <tr>
-        <button class="add_player" id="goalies-add"> + </button>
-        <button class="add_player" id="goalies-sub"> - </button>
-      </tr>
     </div>
+
+    <button id="done"> Done </button>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/stat-enter-soccer.js"></script>  
