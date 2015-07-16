@@ -13,7 +13,7 @@ body {
 	width: 95%;
 	height: 83vh;
 	margin: 0 auto;
-	border-radius: 15px;
+	border-radius: 10px;
 	position: relative;
 	min-width: 500px;
 }
@@ -24,11 +24,25 @@ body {
 	border-bottom: solid white 3px;
 }
 
-h1 {
+h1:first-of-type {
 	color: white;
 	font-family: junction;
 	font-size: 3em;
 	margin-bottom: 0;
+	border-bottom: solid #0E76FF 2px;
+}
+
+#stat_select_title {
+	padding-top: 5px;
+	font-size: 2em;
+}
+
+#stat_select_title h1 {
+	color: #0E76FF;
+	font-family: junction;
+	font-size: 3em;
+	margin-bottom: 0;
+	text-align: center;
 }
 
 .choice_button {
@@ -40,7 +54,7 @@ h1 {
 	margin-bottom: 2.5%;
 	margin-left: 3.5%;
 	margin-right: 3.5%;
-
+	z-index: 4;
 }
 
 .choice_button button {
@@ -88,11 +102,52 @@ h1 {
 }
 
 #stat_options h3 {
-	font-size: 1em;
+	font-size: 2em;
 	font-family: junction;
 	color: #0E76FF;
 }
 
 #stat_options {
-	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+
+#stat_options div div {
+	display: none;
+}
+#stat_options div:first-of-type {
+	display: none;
+}
+
+#soccer_stat_options {
+	height: 80%;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 1.5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+}
+
+#soccer_stat_options div {
+	width: 25%;
+	text-align: center;
+}
+
+#soccer_stat_options #general {
+	width: 70%;
+	font-size: 1.5em;
+	margin: auto;
+}
+
+#soccer_stat_options #goalie {
+	width: 60%;
+	font-size: 1.5em;
+	margin: auto;
+	margin-top: 3%;
+}
+
+#soccer_stat_options div table tbody tr td:hover {
+	color: white;
+	background-color: #0E76FF;
 }

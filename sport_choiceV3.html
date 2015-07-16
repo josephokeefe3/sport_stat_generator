@@ -19,6 +19,7 @@
 	 		<div id="soccer_choice"><button>Soccer</button></div>
  		</div>
  		<div id="stat_options">
+ 			<div id="stat_select_title"><h1>Stat Selection</h1></div>
  			<div id="football_stat_options">
  			</div>
  			<div id="baseball_stat_options">
@@ -28,29 +29,43 @@
  			<div id="soccer_stat_options">
  				<div id="general">
  					<h3>General</h3>
-	 				<ul class="list-group" id="general_list">
-						<li class="list-group-item">Minutes Played (Min)</li>
-						<li class="list-group-item">Assists (A)</li>
-						<li class="list-group-item">Points (Pts)</li>
-						<li class="list-group-item">Shots (Sh)</li>
-						<li class="list-group-item">Shots on Goal (SOG)</li>
-						<li class="list-group-item">Penalty Kick Goals (PK)</li>
-						<li class="list-group-item">Penalty Kick Goals Attempts (PKA)</li>
-					</ul>
+ 					<table class="table table-bordered">
+ 						<tbody>
+ 							<tr>
+ 								<td data-clicked="0" id="MinutesPlayed">Minutes Played (Min)</td>
+ 								<td data-clicked="0" id="Assists">Assists (A)</td>
+ 								<td data-clicked="0" id="Shots">Shots (Sh)</td>
+ 							</tr>
+ 							<tr>
+ 								<td data-clicked="0" id="Points">Points (Pts)</td>
+ 								<td data-clicked="0" id="ShotsonGoal">Shots on Goal (SOG)</td>
+ 								<td data-clicked="0" id="PenaltyKickGoals">Penalty Kick Goals (PK)</td>
+ 							</tr>
+ 							<tr>
+ 								<td data-clicked="0" id="PenaltyKickGoalsAttempts">Penalty Kick Goals Attempts (PKA)</td>
+ 								<td data-clicked="0" id="Fouls">Fouls (FL)</td>
+ 								<td data-clicked="0" id="Blocks">Blocks (BK)</td>
+ 							</tr>
+ 						</tbody>
+ 					</table>
  				</div>
- 				<div id="golie">
- 					<h3>Golie</h3>
- 					<ul class="list-group" id="general_list">
-						<li class="list-group-item">Minutes Played</li>
-						<li class="list-group-item">Goals Against</li>
-						<li class="list-group-item">Saves</li>
-						<li class="list-group-item">Shots on Goal (SOG)</li>
-						<li class="list-group-item">Shut-outs</li>
-					</ul>
+ 				<div id="goalie">
+ 					<h3>Goalie</h3>
+ 					<table class="table table-bordered">
+ 						<tbody>
+ 							<tr>
+ 								<td data-clicked="0" id="MinutesPlayed">Minutes Played (Min)</td>
+ 								<td data-clicked="0" id="GoalsAgainst">Goals Against (GA)</td>
+ 								<td data-clicked="0" id="Shutouts">Shut-outs (SO)</td>
+ 							</tr>
+ 							<tr>
+ 								<td data-clicked="0" id="Saves">Saves (S)</td>
+ 								<td data-clicked="0" id="ShotsFaces">Shots Faces (ShF)</td>
+ 							</tr>
+ 						</tbody>
+ 					</table>
  				</div>
- 				<div id="team">
- 					<h3>Team</h3>
- 				</div>
+ 			</div>
  		</div>
  	</div>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
