@@ -15,8 +15,12 @@ $(document).ready(function(){
 
   var stat_row = '<tr class="stat_row"><td> <input type="text" class="stat"> </td><td> <input type="text" class="stat"> </td> <td> <input type="text" class="stat">  </td><td> <input type="text" class="stat">  </td><td> <input type="text" class="stat">  </td><td> <input type="text" class="stat">  </td><td> <input type="text" class="stat">  </td></tr>';
 
+  var fp_rows = 1
+
   $('#field-players-add').click(function(){
     $('#field-players-stat').append(stat_row);
+    $fp_rows = fp_rows+1;
+    $console.log(fp_rows);
   });
 
   $('#goalies-add').click(function(){
@@ -29,6 +33,12 @@ $(document).ready(function(){
 
   $('#goalies-sub').click(function(){
     $('.stat_row:last-child', '#goalies-stat').remove();
+  });
+
+  $('#done').click(function(){
+    var
+
+
   });
 
 });

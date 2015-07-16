@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <meta charset="UTF-8">
+  <title> Basketball </title>
+  <link rel="stylesheet" href="css/stat-enter-basketball.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ </head>
+ <body class="notBoot">
+
+  <div id="basketball_title_bar">
+    <h1>Stat Compilier<h1>
+  </div>
+  <div class="wrapper">
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#"> Field Players </a></li>
+    </ul>
+
+    <div class="statsheet open" id="players">
+      <tr>
+        <button class="add_player" id="players-add"> + </button>
+        <button class="add_player" id="players-sub"> - </button>
+      </tr>      
+      <table class="stat_table" id="players-stat">
+        <tr class="stat-row">
+          <td> Player </td>
+          <td> Basketball Stat 1 </td> 
+          <td> Basketball Stat 2  </td>
+          <td> Basketball Stat 3  </td>
+          <td> Basketball Stat 4  </td>
+          <td> Basketball Stat 5  </td>
+          <td> Basketball Stat 6  </td>
+        </tr>
+        <tr class="stat_row">
+          <td> <input type="text" class="stat"> </td>
+          <td> <input type="text" class="stat"> </td> 
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+        </tr>
+      </table>
+    </div>
+
+  
+    <button id="done"> Done </button>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/stat-enter-basketball.js"></script>  
+ </body>
+</html>

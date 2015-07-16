@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <meta charset="UTF-8">
+  <title> Basketball </title>
+  <link rel="stylesheet" href="css/stat-enter-football.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ </head>
+ <body class="notBoot">
+
+  <div id="soccer_title_bar">
+    <h1>Stat Compilier<h1>
+  </div>
+  <div class="wrapper">
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#"> Offense </a></li>
+      <li role="presentation"><a href="#"> Defense </a></li>
+      <li role="presentation"><a href="#"> Special Teams </a></li>
+    </ul>
+
+    <div class="statsheet open" id="offense">
+      <tr>
+        <button class="add_player" id="offense-add"> + </button>
+        <button class="add_player" id="offense-sub"> - </button>
+      </tr>
+      <table class="stat_table" id="offense-stat">
+        <tr class="stat-row">
+          <td> Player </td>
+          <td> Basketball Stat 1 </td> 
+          <td> Basketball Stat 2  </td>
+          <td> Basketball Stat 3  </td>
+          <td> Basketball Stat 4  </td>
+          <td> Basketball Stat 5  </td>
+          <td> Basketball Stat 6  </td>
+        </tr>
+        <tr class="stat_row">
+          <td> <input type="text" class="stat"> </td>
+          <td> <input type="text" class="stat"> </td> 
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="statsheet" id="defense">
+      <tr>
+        <button class="add_player" id="defense-add"> + </button>
+        <button class="add_player" id="defense-sub"> - </button>
+      </tr>      
+      <table class="stat_table" id="defense-stat">
+        <tr class="stat-row">
+          <td> Player </td>
+          <td> Basketball Stat 1 </td> 
+          <td> Basketball Stat 2  </td>
+          <td> Basketball Stat 3  </td>
+          <td> Basketball Stat 4  </td>
+          <td> Basketball Stat 5  </td>
+          <td> Basketball Stat 6  </td>
+        </tr>
+        <tr class="stat_row">
+          <td> <input type="text" class="stat"> </td>
+          <td> <input type="text" class="stat"> </td> 
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="statsheet" id="special_teams">
+      <tr>
+        <button class="add_player" id="special-teams-add"> + </button>
+        <button class="add_player" id="special-teams-sub"> - </button>
+      </tr>      
+      <table class="stat_table" id="special-teams-stat">
+        <tr class="stat-row">
+          <td> Player </td>
+          <td> Basketball Stat 1 </td> 
+          <td> Basketball Stat 2  </td>
+          <td> Basketball Stat 3  </td>
+          <td> Basketball Stat 4  </td>
+          <td> Basketball Stat 5  </td>
+          <td> Basketball Stat 6  </td>
+        </tr>
+        <tr class="stat_row">
+          <td> <input type="text" class="stat"> </td>
+          <td> <input type="text" class="stat"> </td> 
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+        </tr>
+      </table>
+    </div>
+
+    <button id="done"> Done </button>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/stat-enter-football.js"></script>  
+ </body>
+</html>
