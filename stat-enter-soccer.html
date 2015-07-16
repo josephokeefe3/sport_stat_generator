@@ -20,10 +20,10 @@
       <li role="presentation"><a href="#">Goalies</a></li>
     </ul>
 
-    <div class="statsheet" id="field-players">
-      <table class="stat_table">
+    <div class="statsheet open" id="field-players">
+      <table class="stat_table" id="field-players-stat">
         <tr class="stat-row">
-          <td> Name </td>
+          <td> Player </td>
           <td> Soccer Stat 1 </td> 
           <td> Soccer Stat 2  </td>
           <td> Soccer Stat 3  </td>
@@ -42,11 +42,36 @@
         </tr>
       </table>
       <tr>
-        <button class="add_player"> + </button>
+        <button class="add_player" id="field-players-add"> + </button>
+        <button class="add_player" id="field-players-sub"> - </button>
       </tr>
     </div>
 
     <div class="statsheet" id="goalies">
+      <table class="stat_table" id="goalies-stat">
+        <tr class="stat-row">
+          <td> Player </td>
+          <td> Soccer Stat 1 </td> 
+          <td> Soccer Stat 2  </td>
+          <td> Soccer Stat 3  </td>
+          <td> Soccer Stat 4  </td>
+          <td> Soccer Stat 5  </td>
+          <td> Soccer Stat 6  </td>
+        </tr>
+        <tr class="stat_row">
+          <td> <input type="text" class="stat"> </td>
+          <td> <input type="text" class="stat"> </td> 
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+          <td> <input type="text" class="stat">  </td>
+        </tr>
+      </table>
+      <tr>
+        <button class="add_player" id="goalies-add"> + </button>
+        <button class="add_player" id="goalies-sub"> - </button>
+      </tr>
     </div>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

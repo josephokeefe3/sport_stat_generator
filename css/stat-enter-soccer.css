@@ -32,6 +32,14 @@ body h1 {
   margin-left: 15px;
 }
 
+.statsheet {
+  display: none;
+}
+
+.statsheet.open {
+  display: block;
+}
+
 table {
   margin-left: 1%;
   margin-right: 1%;
