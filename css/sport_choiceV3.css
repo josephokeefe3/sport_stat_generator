@@ -1,0 +1,98 @@
+
+@font-face {
+	font-family: junction;
+	src: url(../fonts/Junction.otf);
+}
+
+body {
+	background: #0E76FF;
+}
+
+.wrapper {
+	background-color: white;
+	width: 95%;
+	height: 83vh;
+	margin: 0 auto;
+	border-radius: 15px;
+	position: relative;
+	min-width: 500px;
+}
+
+#sport_choice_title_bar {
+	margin-left: 15px;
+	margin-bottom: 20px;
+	border-bottom: solid white 3px;
+}
+
+h1 {
+	color: white;
+	font-family: junction;
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+.choice_button {
+	margin: auto;
+	width: 93%;
+	height: 90%;
+	position: absolute;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
+
+}
+
+.choice_button button {
+	background: #fff;
+	border-radius: 10px;
+	font-family: junction;
+	color: #0E76FF;
+	font-size: 3em;
+	border: solid #0E76FF 2px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.choice_button button:hover {
+	background: #0E76FF;
+	color: white;
+	border: solid white 2px;
+}
+
+.choice_button div {
+	height: 47.5%;
+	width: 48.5%;
+	position: absolute;
+}
+
+#football_choice {
+	top: 0;;
+	left: 0;
+}
+
+#baseball_choice {
+	top: 0;
+	right: 0;
+}
+
+#basketball_choice {
+	bottom: 0;
+	left: 0;
+}
+
+#soccer_choice {
+	bottom: 0;
+	right: 0;
+}
+
+#stat_options h3 {
+	font-size: 1em;
+	font-family: junction;
+	color: #0E76FF;
+}
+
+#stat_options {
+	background-color: black;
+}
