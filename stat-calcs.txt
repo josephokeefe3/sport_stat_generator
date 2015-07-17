@@ -1,0 +1,53 @@
+Soccer Stat Calculations
+
+*Stats to consider adding: Tackles, Interceptions, Offsides Won, Clearences, Passing %
+
+(penalty kick goal / pk attempts) * 2
+
+goals / shots * 10
+
+if PKG:
+goal-(.5* PKG) / team goals * 10
+else:
+goals / team goals * 10 
+
+shots on goal / shots
+
+1 - (fouls/blocks) * 10
+
+assist / team assists * 10
+
+Average All that can calculate
+
+If minutes, divide by minutes
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+**Switch Minutes Played to Games Played
+
+if Goals Against > 0;
+  Saves * 2
+Saves / Goals Against
+
+Saves / Shots Against * 8
+
+Shutouts * 5
+
+Average All
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+Played Most Time                                        Played Least Time
+W W W L W W W L W W L L L W W L W W L W W L L L W L L W L W L W L L W L L
+
+Verdict: PLAY MORE
+---------------------------------------------------------------------------------------------
+
+Played: Record 12-5-1
+DNP: Record 3-4-8
+
+Verdict: Play More
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
