@@ -15,6 +15,7 @@ body {
   position: relative;
   min-width: 500px;
   min-height: 85vh;
+  border: solid #3468A5 5px;
 }
 
 .title_bar {
@@ -32,10 +33,11 @@ body {
 #stat_table_title {
   height: 100px;
   margin-bottom: 1%;
+  border-bottom: solid #3468A5 2px;
 }
 
 #stat_table_title h1{
-  color: #0E76FF;
+  color: #3468A5;
   font-family: junction;
   font-size: 4em;
   text-align: center;
@@ -43,7 +45,7 @@ body {
 }
 
 td {
-  border: solid black 1px;
+  border: solid #3468A5 1px;
 }
 
 .input_box {
@@ -56,10 +58,24 @@ td {
   height: 7vh;
   width: 5%;
   margin-top: 2%;
-  background-color: #0E76FF;
+  background-color: #3468A5;
   color: white;
   font-family: junction;
   font-size: 2em;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+.generate_button {
+  height: 7vh;
+  width: 23.5%;
+  padding-top: 4px;
+  position: static;
+  margin-left: 65%;
+  background-color: #3468A5;
+  color: white;
+  font-family: junction;
+  font-size: 1.5em;
   border: solid white 2px;
   border-radius: 10px;
 }
@@ -94,7 +110,7 @@ td {
   width: 100%;
   border: solid black 1px;
   font-size: 1em;
-  color: black;
+  color: #3468A5;
   text-align: center;
   table-layout: fixed;
 }
@@ -103,7 +119,7 @@ td {
   width: 100%;
   border: solid black 1px;
   font-size: 1em;
-  color: black;
+  color: #3468A5;
   text-align: center;
   table-layout: fixed;
 }
