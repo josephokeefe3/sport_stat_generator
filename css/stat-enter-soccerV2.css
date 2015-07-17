@@ -42,22 +42,6 @@ body {
   padding-top: 1.25%;
 }
 
-.general_stat_table {
-  width: 95%;
-  margin: 0 auto;
-  position: relative;
-  min-height: 20vh
-}
-
-.general_stat_table table{
-  width: 100%;
-  border: solid black 1px;
-  font-size: 1em;
-  color: black;
-  text-align: center;
-  table-layout: fixed;
-}
-
 td {
   border: solid black 1px;
 }
@@ -105,7 +89,47 @@ td {
   margin-left: 2.5%;
 }
 
-#goalie_stat_table h1{
-  display: block;
+
+.general_stat_table table{
+  width: 100%;
+  border: solid black 1px;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.goalie_stat_table table{
+  width: 100%;
+  border: solid black 1px;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.general_stat_table {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: absolute;
+  min-height: 20vh;
   display: none;
+}
+
+.goalie_stat_table {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  position: absolute;
+  min-height: 20vh;
+  display: none;
+}
+
+.general_stat_table.open {
+  display: block;
+}
+
+.goalie_stat_table.open {
+display: block;
 }

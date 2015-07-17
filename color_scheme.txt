@@ -1,3 +1,5 @@
 wrapper: #0E76FF
 
 base-background: #F7EEE4
+
+dark blue: #3468A5

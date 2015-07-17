@@ -21,7 +21,7 @@
         <li role="presentation" class=""><a href="#">Goalies</a></li>
       </ul>
     </div>
-    <div class="general_stat_table">
+    <div class="general_stat_table open">
       <table>
         <thead>
           <tr>
@@ -34,13 +34,24 @@
           </tr>
         </tbody>
       </table>
-      <tr>
-        <button class="player_button" id="field_players_add"> + </button>
-        <button class="player_button" id="field_players_sub"> - </button>
-      </tr>
+      <button class="player_button" id="field_players_add"> + </button>
+      <button class="player_button" id="field_players_sub"> - </button>
     </div>
     <div class="goalie_stat_table">
-      <h1>TEST</h1>
+      <table>
+        <thead>
+          <tr>
+            <td id="Player">Player</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" class="input_box" placeholder="Player"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="player_button" id="goalie_players_add"> + </button>
+      <button class="player_button" id="goalie_players_sub"> - </button>
     </div>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
