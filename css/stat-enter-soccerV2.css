@@ -69,7 +69,7 @@ td {
 }
 
 .player_button {
-  height: 10vh;
+  height: 7vh;
   width: 5%;
   margin-top: 2%;
   background-color: #0E76FF;
@@ -98,4 +98,14 @@ td {
 
 #PenaltyKickGoals {
   min-width: 160px;
+}
+
+#nav_wrapper {
+  margin-bottom: 20px;
+  margin-left: 2.5%;
+}
+
+#goalie_stat_table h1{
+  display: block;
+  display: none;
 }
