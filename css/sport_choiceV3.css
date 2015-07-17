@@ -151,3 +151,27 @@ h1:first-of-type {
 	color: white;
 	background-color: #0E76FF;
 }
+
+#enter_stat_button button {
+	background: #0E76FF;
+	border-radius: 10px;
+	font-family: junction;
+	color: white;
+	font-size: 2em;
+	border: solid white 2px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 4%;
+}
+
+#enter_stat_button {
+	width: 20%;
+	height: 14%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	display: none;
+}

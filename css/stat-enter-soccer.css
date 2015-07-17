@@ -50,10 +50,16 @@ table {
 .stat {
   margin-top: 3px;
   padding-bottom: 1px;
+  border: solid black 1px;
 }
 
 .stat_row {
-  border-bottom: 1px;
+  border: solid black 1px;
+}
+
+.stat_row td {
+  max-width: 35px;
+  border: solid black 1px;
 }
 
 .add_player {
