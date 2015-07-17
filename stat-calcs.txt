@@ -27,7 +27,8 @@ If minutes, divide by minutes
 
 if Goals Against > 0;
   Saves * 2
-Saves / Goals Against
+Else;
+  Saves / Goals Against
 
 Saves / Shots Against * 8
 
